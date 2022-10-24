@@ -1,0 +1,114 @@
+/* Utilities */
+.profile-container {
+  max-width: 2000px;
+  margin: 5% 0;
+  overflow: hidden;
+  padding: 0 2rem;
+  color: black;
+  font-size: 17px;
+}
+
+.name {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #333;
+}
+
+.middle-heading {
+  background-color: rgb(238, 232, 232);
+  padding: 5%;
+}
+
+.activity {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 0px;
+  border-bottom: 1px solid rgb(187, 176, 176);
+}
+
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left-profile {
+  float: left;
+  padding: 10px;
+  width: 20%;
+}
+
+.right-profile {
+  float: left;
+  padding: 10px;
+  width: 25%;
+}
+
+.middle {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
+.profile-title {
+  /* word-break: break-word !important;
+    overflow-wrap: break-word !important; */
+  font-weight: bold;
+  margin-bottom: 6px;
+  /* line-height: 1.28571em; */
+  margin-top: 20px;
+  color: black;
+}
+
+.subheading {
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: underline;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  color: black;
+}
+
+.btn-update {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
+
+.update-links {
+  margin-bottom: 10%;
+  border-bottom: 1px solid rgb(187, 176, 176);
+}
+
+.headline {
+  font-weight: bolder;
+  font-size: larger;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.title1 {
+  font-weight: bold;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 19px;
+  color: #0073bb;
+}

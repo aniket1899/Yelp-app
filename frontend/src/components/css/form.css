@@ -1,0 +1,99 @@
+input {
+  display: block;
+  font-size: 20px;
+}
+
+.form-flow {
+  margin: auto;
+  padding: 0 18px;
+  max-width: 100%;
+}
+
+.form-title {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 40px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 40px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.yform {
+  display: block;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+.yform .placeholder-sub {
+  display: none;
+  color: #999;
+  font-weight: normal;
+}
+
+.my-text {
+  width: 300px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d32323;
+  padding: 10px 70px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.top-btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d32323;
+  padding: 10px 20px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin: 25px 10px 10px 0;
+}
+
+.btn:hover {
+  background: #ff4747;
+  text-decoration: none;
+}
+
+.legal-copy {
+  color: #333;
+  font-size: 12px;
+  line-height: 1.5em;
+  margin-right: 40%;
+}
+
+.restaurant {
+  color: black;
+  background-color: rgb(201, 198, 198);
+  border-radius: 5px;
+}

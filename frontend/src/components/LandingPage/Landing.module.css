@@ -1,0 +1,132 @@
+.landing {
+  background-image: url('https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/eea3522f4348/assets/img/home/hero_photos/BWRT755ImlKnGpjV4udRdQ.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 12% 20% 30% 20%;
+  margin: auto;
+  /* opacity: 0.75; */
+}
+
+.logo {
+  width: 180px;
+  height: 80px;
+  margin: auto;
+  display: block;
+}
+.img {
+  height: 300px;
+  width: 450px;
+}
+
+.top_btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d32323;
+  padding: 10px 20px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin: 45px 20px 10px 0;
+}
+
+.form_title {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 40px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.form_title1 {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 40px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.submit_btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d32323;
+  padding: 8px 30px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin: 10px 30px 50px 0px;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: grey;
+  padding: 8px 10px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin: 10px 30px 50px 0;
+}
+
+.near {
+  width: 700px;
+  display: flex;
+}
+
+.rest_name {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* text-decoration: underline; */
+}
+
+.back_btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d32323;
+  padding: 10px 20px;
+  text-decoration: none;
+  line-height: 1.3125em;
+  margin: 45px 20px 100px 0;
+}
+
+.filters {
+  display: inline-block;
+  width: 110%;
+}
+
+.bottom_icons {
+  color: white;
+  font-weight: 700;
+  display: flex;
+  text-align: center;
+}

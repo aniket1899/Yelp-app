@@ -1,0 +1,85 @@
+.landing {
+  background-image: url('https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/eea3522f4348/assets/img/home/hero_photos/BWRT755ImlKnGpjV4udRdQ.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 12% 20% 30% 20%;
+  margin: auto;
+}
+
+.main-logo {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.field-wrapper {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.field {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 11px 0 14px 58px;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+}
+
+.field.request {
+  position: relative;
+  display: inline-block;
+  width: 760px;
+  box-sizing: border-box;
+  font-size: 18px;
+  outline: none;
+  border: 0;
+  border-radius: 4px 0 0 4px;
+  margin-left: 120px;
+}
+
+.field.request.search_bar {
+  position: relative;
+  display: inline-block;
+  width: 760px;
+  box-sizing: border-box;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-left: 120px;
+}
+
+.field-title {
+  position: absolute;
+  top: -30.5px;
+  left: 11px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #666;
+  z-index: 999;
+}
+
+.field-title.find {
+  position: absolute;
+  top: -33px;
+}
+
+.search-button {
+  display: inline-block;
+  width: 63px;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: #d32323;
+  /* background-image: url(./assets/search.png); */
+  background-repeat: no-repeat;
+  background-position: 17px 8px;
+  color: #fff;
+  font-size: 0;
+  vertical-align: top;
+  border-radius: 0 4px 4px 0;
+}

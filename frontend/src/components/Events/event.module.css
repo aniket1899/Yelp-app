@@ -1,0 +1,247 @@
+/* //Vars */
+:root {
+  --rad: 0.7rem;
+  --dur: 0.3s;
+  --color-dark: #2f2f2f;
+  --color-light: #fff;
+  --color-brand: #57bd84;
+  --font-fam: 'Lato', sans-serif;
+  --height: 2.1rem;
+  --btn-width: 6rem;
+  --bez: cubic-bezier(0, 0, 0.43, 1.49);
+}
+
+/* Utilities */
+.container {
+  max-width: 1500px;
+  margin: 5% 0;
+  overflow: hidden;
+  padding: 0 2rem;
+  color: black;
+  font-size: 17px;
+}
+
+.name {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #333;
+}
+
+.middle_heading {
+  background-color: rgb(238, 232, 232);
+  padding: 5%;
+}
+
+.activity {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  color: #d32323;
+  margin-top: 0px;
+  border-bottom: 1px solid rgb(187, 176, 176);
+}
+
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+  padding: 10px;
+  /* width: 85%; */
+}
+
+.right {
+  float: right;
+  padding: 10px;
+  width: 25%;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 30px;
+  color: #d32323;
+}
+
+.subheading {
+  font-weight: bold;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  height: 50px;
+  font-size: 40px;
+  color: #d32323;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 6px;
+  line-height: 1.28571em;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 25px;
+  color: #0073bb;
+}
+
+.title_right {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  color: black;
+}
+
+.btn_update {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+}
+
+.view_all {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  float: right;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+.update_links {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  /* border-bottom: 1px solid rgb(187, 176, 176); */
+}
+
+.event_card {
+  height: 400px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px solid rgb(143, 139, 139);
+  background: #fffffb;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  display: inline-table;
+}
+
+.event_description {
+  margin: 3% 0;
+}
+
+.event_hashtags {
+  color: black;
+  font-weight: bold;
+}
+
+.event_register {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.2rem 0.7rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+}
+
+.color_white {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  margin: 3% 0;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+}
+
+.search_bar {
+  display: inline-table;
+  width: 500px;
+  height: var(--height);
+  font-family: var(--font-fam);
+  border: 1px solid black;
+  border-radius: 10px;
+  color: var(--color-dark);
+}
+
+.cust_name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.rest_links {
+  float: left;
+  /* margin-top: 40%; */
+  margin-right: 70px;
+}
+
+.display {
+  display: inline-block;
+}
+
+.search-btn {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  font-weight: bold;
+  background-color: #d32323;
+  color: white;
+}
